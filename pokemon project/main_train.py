@@ -35,6 +35,8 @@ for epoch in range(num_epoch):
         #print('real_data_size: ', real_data.size())
         #batch size#print(real_data.size(0))
         batch_size = real_data.size(0)
+        batch_size = real_data.size(0)
+        batch_size = real_data.size(0)
         #print('batched_size:: ',batch_size)
         
         d_optimizer.zero_grad() #clear grad
