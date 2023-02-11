@@ -2,7 +2,7 @@
 """
 Created on Mon Oct 17 23:52:01 2022
 #Algo Bot
-@author: SAMSUNG
+@author: Abdulmalik Abubakar
 """
 import time
 from datetime import datetime
