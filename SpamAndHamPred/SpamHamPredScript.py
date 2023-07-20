@@ -23,7 +23,7 @@ def info(sms_raw):
     print('\nShape of dataset: ', sms_raw.shape)
     print('\nSample of message: ', sms_raw.iloc[77].message)
 
-##### Im not sure about this piece of code, i need to look into though
+##### lok more into this
 spark = ps.sql.SparkSession.builder.master('local[4]').appName('spark_ml').getOrCreate()
 sc = spark.sparkContext
 
