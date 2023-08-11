@@ -10,7 +10,7 @@ def test(request):
     return HttpResponse('abdul{c}')
 
 def test2(request):
-    df = pd.read_csv(r'F:\Projects\NewsApp Project\Codes setup\news_data2.csv')
+    df = pd.read_csv(r'F:\Projects\NewsApp Project\Other Files\news_data2.csv')
     name = 'title'
     #return df
     assesAndAssign.assesAndAssign(df=df, nameOfMainColumn=name, request=request)

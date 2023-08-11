@@ -16,7 +16,7 @@ import os
 from luno_python.client import Client
 
 #c = Client(api_key_id='key_id', api_key_secret='key_secret')
-c = Client(api_key_id='fapn7p6wvtw644q', api_key_secret='Gryg1C05E16H2M-WGxRB_itXDg1u0NAVG0x6DF8AyDkFg')
+c = Client(api_key_id='fapn7p6wvtw644q', api_key_secret='Gryg1C05E16H2M-WGxRB_i-tXDg1u0NAVG0x6DF8AyDkFgg')
 try:
     res = c.get_ticker(pair='XBTZAR')
     print(res)
