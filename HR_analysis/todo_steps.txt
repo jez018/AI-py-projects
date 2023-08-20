@@ -1,0 +1,19 @@
+
+## Data Visualization Work to help us understand the data before we build the model.
+
+1. check genders missing values:
+	a. if its at a significant(i.e little) amount del it.
+	b. it has to be.
+
+2. compare genders with relevant experience (bar chart)
+3. compare genders with training hours (scatter plot) 
+4. comapre genders with experience (scatter plot)
+5. compare genders with last_new_job (scatter plot, bar chart)
+6. compare relevant experience with education level (bar chart)
+7. use gender, relevant_experience, enrolled uni, edu level, major_disc and experience, in a separate model to predict company_type
+8. if missing values of company type has been filled use info to fill in company size missing values.
+9. compare education level against company size (histogram or bar chart and pie chart)
+10. compare major discipline with training hours (line graph and scatter plot)
+11. compare city_dev_index with training hours (scatter or line)
+12. commpare city_dev_index with relevant experience and education level (scatter plot)
+13. compare city_dev_index with last_new_job
